@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://kodofish.github.io/post/example/</loc>
+    <lastmod>2019-01-16T17:27:47+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://kodofish.github.io/authors/</loc>
     <priority>0</priority>
   </url>
@@ -14,6 +19,13 @@
   
   <url>
     <loc>http://kodofish.github.io/</loc>
+    <lastmod>2019-01-16T17:27:47+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kodofish.github.io/post/</loc>
+    <lastmod>2019-01-16T17:27:47+08:00</lastmod>
     <priority>0</priority>
   </url>
   
