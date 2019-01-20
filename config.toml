@@ -1,7 +1,7 @@
 baseURL = "http://kodofish.github.io"
 title = "Kodofish"
 # for smart copyright line, leave this blank and check [params.copyright]
-author = "Steve Francia"
+author = "Kodofish Chang"
 copyright = "Copyright © 2019, all rights reserved."
 canonifyurls = true
 theme = "silhouette-hugo"
@@ -10,16 +10,18 @@ googleAnalytics = ""
 Paginate = 5
 preserveTaxonomyNames = true
 enableRobotsTXT = true # generate robots.txt
+LanguageCode="zh-TW"
+hasCJKLanguage=true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
 enableEmoji = true
 # Missing translations will default to this content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-TW"
 
 [params]
 author = "Kodofish"
-introDescription = "Hi, I'm Steve Francia. Author, Speaker, Developer, Creator of Hugo, Cobra and spf13-vim. Former Docker and MongoDB."
+introDescription = "一個寫了十多年 ASP.Net 的資深工程師，曾任職PM、經理 等管理職務，但最愛還是動手寫程式。除了不斷學習各種新技術外，Agile、Scrum、DevOps…等實務也是不斷探索與學習的課題。"
 contentSharing = "I'm happy for you to share content on this site, but please provide attribution."
 
 [social]
