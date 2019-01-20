@@ -48,5 +48,14 @@
       <description>18年回顧及19年新目標 18年的最後就是看著五月天的跨年演唱會直播、吃著前兩天發現的起家雞韓國炸雞中度過，想想這兩年都是待在團隊內擔任 Team Member</description>
     </item>
     
+    <item>
+      <title>再一次重新學習「重構與TDD」</title>
+      <link>https://kodofish.github.io/post/2018-07-01_tdd_and_refactoring/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/post/2018-07-01_tdd_and_refactoring/</guid>
+      <description>六月份安排兩天時間去參加了 91 主講的 『重構與 TDD 實戰營』，這門課早在三月時就已經報名了。但當時其實有點猶豫，猶豫什麼呢？早在前2年就上過TDD的</description>
+    </item>
+    
   </channel>
 </rss>

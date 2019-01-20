@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://kodofish.github.io/post/2018-07-01_tdd_and_refactoring/</loc>
+    <lastmod>2018-07-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/categories/</loc>
     <priority>0</priority>
   </url>
@@ -42,6 +47,18 @@
   <url>
     <loc>https://kodofish.github.io/post/</loc>
     <lastmod>2019-01-15T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kodofish.github.io/tags/refactoring/</loc>
+    <lastmod>2018-07-01T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kodofish.github.io/tags/tdd/</loc>
+    <lastmod>2018-07-01T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
