@@ -4,9 +4,11 @@ date: 2019-01-15T00:00:00+08:00
 draft: false
 
 categories:
-  - Software Development
+  - 軟體開發
 tags:
   - swagger
+  - WebAPI
+  - featured
 ---
 # Swagger Codegen — 自動產生文件的工具
 

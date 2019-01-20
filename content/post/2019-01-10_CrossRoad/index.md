@@ -2,6 +2,10 @@
 title: "人生的十字路口"
 date: 2019-01-10T00:00:00+08:00
 draft: false
+categories:
+  - 敏捷修練場
+tags:
+  - Facilitation
 ---
 # 人生的十字路口
 
