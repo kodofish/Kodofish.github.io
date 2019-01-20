@@ -7,19 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>Copyright © 2019, all rights reserved.</copyright>
-    <lastBuildDate>Mon, 21 Jan 2019 00:29:03 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://kodofish.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>“打造” 自組織團隊 心得</title>
-      <link>https://kodofish.github.io/post/2018-05-23_self-organizing/</link>
-      <pubDate>Mon, 21 Jan 2019 00:29:03 +0800</pubDate>
-      
-      <guid>https://kodofish.github.io/post/2018-05-23_self-organizing/</guid>
-      <description>一開始就被王晶老師所帶的活動給驚訝到了。 活動很簡單，所有人在場地內各自找兩個人，並且移動自己站在兩個人的中心點，王晶老師還暗示我們移動速度不</description>
-    </item>
     
     <item>
       <title>Swagger Codegen — 自動產生文件的工具</title>
@@ -64,6 +55,15 @@
       
       <guid>https://kodofish.github.io/post/2018-07-01_tdd_and_refactoring/</guid>
       <description>六月份安排兩天時間去參加了 91 主講的 『重構與 TDD 實戰營』，這門課早在三月時就已經報名了。但當時其實有點猶豫，猶豫什麼呢？早在前2年就上過TDD的</description>
+    </item>
+    
+    <item>
+      <title>“打造” 自組織團隊 心得</title>
+      <link>https://kodofish.github.io/post/2018-05-23_self-organizing/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/post/2018-05-23_self-organizing/</guid>
+      <description>一開始就被王晶老師所帶的活動給驚訝到了。 活動很簡單，所有人在場地內各自找兩個人，並且移動自己站在兩個人的中心點，王晶老師還暗示我們移動速度不</description>
     </item>
     
   </channel>
