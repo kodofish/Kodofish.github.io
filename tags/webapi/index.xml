@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WebAPI on Kodofish</title>
+    <link>https://kodofish.github.io/tags/webapi/</link>
+    <description>Recent content in WebAPI on Kodofish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>Copyright © 2019, all rights reserved.</copyright>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://kodofish.github.io/tags/webapi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Swagger Codegen — 自動產生文件的工具</title>
+      <link>https://kodofish.github.io/post/2019-01-15_swaggercodegen/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/post/2019-01-15_swaggercodegen/</guid>
+      <description>Swagger Codegen — 自動產生文件的工具 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 A</description>
+    </item>
+    
+  </channel>
+</rss>
