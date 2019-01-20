@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>Copyright © 2019, all rights reserved.</copyright>
-    <lastBuildDate>Thu, 10 Jan 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 21 Jan 2019 00:29:03 +0800</lastBuildDate>
     
 	<atom:link href="https://kodofish.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>https://kodofish.github.io/tags/agile/</link>
+      <pubDate>Mon, 21 Jan 2019 00:29:03 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/tags/agile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Facilitation</title>
@@ -54,6 +63,15 @@
       <pubDate>Tue, 15 Jan 2019 00:00:00 +0800</pubDate>
       
       <guid>https://kodofish.github.io/tags/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>self-Organizing</title>
+      <link>https://kodofish.github.io/tags/self-organizing/</link>
+      <pubDate>Mon, 21 Jan 2019 00:29:03 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/tags/self-organizing/</guid>
       <description></description>
     </item>
     
