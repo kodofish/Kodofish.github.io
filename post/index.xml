@@ -5,19 +5,38 @@
     <link>http://kodofish.github.io/post/</link>
     <description>Recent content in Posts on Kodofish</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
     <copyright>Copyright © 2019, all rights reserved.</copyright>
-    <lastBuildDate>Wed, 16 Jan 2019 17:27:47 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="http://kodofish.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example</title>
-      <link>http://kodofish.github.io/post/example/</link>
-      <pubDate>Wed, 16 Jan 2019 17:27:47 +0800</pubDate>
+      <title>Swagger Codegen — 自動產生文件的工具</title>
+      <link>http://kodofish.github.io/post/2019-01-15_swaggercodegen/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0800</pubDate>
       
-      <guid>http://kodofish.github.io/post/example/</guid>
-      <description>This is example post.</description>
+      <guid>http://kodofish.github.io/post/2019-01-15_swaggercodegen/</guid>
+      <description>Swagger Codegen — 自動產生文件的工具 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 A</description>
+    </item>
+    
+    <item>
+      <title>人生的十字路口</title>
+      <link>http://kodofish.github.io/post/2019-01-10_crossroad/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://kodofish.github.io/post/2019-01-10_crossroad/</guid>
+      <description>人生的十字路口 「人生就是不斷的選擇」 忘了是在何時聽到這句話，但直到現在仍然十分認同這句話所暗喻的意義。 1/8晚上在引導者聚會的主題是「人生的</description>
+    </item>
+    
+    <item>
+      <title>18年回顧及19年新目標</title>
+      <link>http://kodofish.github.io/post/2019-01-01_review2018/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>http://kodofish.github.io/post/2019-01-01_review2018/</guid>
+      <description>18年回顧及19年新目標 18年的最後就是看著五月天的跨年演唱會直播、吃著前兩天發現的起家雞韓國炸雞中度過，想想這兩年都是待在團隊內擔任 Team Member</description>
     </item>
     
   </channel>
