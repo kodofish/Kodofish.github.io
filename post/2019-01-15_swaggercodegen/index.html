@@ -5,14 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <meta property="og:title" content="Swagger Codegen — 自動產生文件的工具" />
-<meta property="og:description" content="Swagger Codegen — 自動產生文件的工具 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 A" />
+<meta property="og:description" content="寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。
+
+但若是真的需要另外產生一份 API 文件時，難道只能手寫一份嗎？" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kodofish.github.io/post/2019-01-15_swaggercodegen/" /><meta property="article:published_time" content="2019-01-15T00:00:00&#43;08:00"/>
 <meta property="article:modified_time" content="2019-01-15T00:00:00&#43;08:00"/>
 
         <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Swagger Codegen — 自動產生文件的工具"/>
-<meta name="twitter:description" content="Swagger Codegen — 自動產生文件的工具 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 A"/>
+<meta name="twitter:description" content="寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。
+
+但若是真的需要另外產生一份 API 文件時，難道只能手寫一份嗎？"/>
 <meta name="twitter:site" content="@kodofish"/>
 
         
@@ -47,7 +51,9 @@
 <meta name="copyright" content="Copyright © 2019, all rights reserved." />
 
 
-<meta name="description" content="Swagger Codegen — 自動產生文件的工具 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 A">
+<meta name="description" content="寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。
+但若是真的需要另外產生一份 API 文件時，難道只能手寫一份嗎？
+">
 
 
     
@@ -139,14 +145,13 @@
     </div>
 
     <div class="mt-4 mb-4 main-content">
-        
+        <p>寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。</p>
 
-<h1 id="swagger-codegen-自動產生文件的工具">Swagger Codegen — 自動產生文件的工具</h1>
+<p>但若是真的需要另外產生一份 API 文件時，難道只能手寫一份嗎？</p>
 
-<p>寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。</p>
+<p><img src="Images/1_YOhEMdhy5oy9YErsbbom8g.png" alt="Swagger UI" /></p>
 
-<p><img src="Images/1_YOhEMdhy5oy9YErsbbom8g.png" alt="Swagger UI" />
-from: <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a></p>
+<p>from: <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a></p>
 
 <p>由於工作流程的需求，並不是所有人都知道 Swagger 的存在，而且 Swagger 是直接結合在 ASP.Net MVC 專案上，通常為了安全性只會讓開發環境可以使用 Swagger，其他環境會將 Swagger 關閉。另外也不是所有人都能存取開發環境。為了讓沒辦法看 Swagger 但又有看文件需求的人也可以看文件，就有了產生靜態文件的需求(嘆)。</p>
 
@@ -211,7 +216,6 @@ from: <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a></p
 <li><a href="https://github.com/chenjianjx/swagger2html">github chenjianjx/swagger2html</a></li>
 </ul>
 
-
         <div class="share-icons d-flex justify-content-center d-print-none">
             <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fkodofish.github.io%2fpost%2f2019-01-15_swaggercodegen%2f&text=Swagger%20Codegen%e2%80%8a%e2%80%94%e2%80%8a%e8%87%aa%e5%8b%95%e7%94%a2%e7%94%9f%e6%96%87%e4%bb%b6%e7%9a%84%e5%b7%a5%e5%85%b7&tw_p=tweetbutton" class="p-2" title="Share on Twitter" target="_blank" rel="nofollow">
     <div>
@@ -268,7 +272,7 @@ from: <a href="https://petstore.swagger.io/">https://petstore.swagger.io/</a></p
             return;
         }
         var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "kodofish-blog" + '.disqus.com/embed.js';
+        s.src = '//' + "kodofish.github.io" + '.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
         (d.head || d.body).appendChild(s);
     })();
