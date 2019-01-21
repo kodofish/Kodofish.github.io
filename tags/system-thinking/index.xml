@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>System Thinking on Kodofish</title>
+    <link>https://kodofish.github.io/tags/system-thinking/</link>
+    <description>Recent content in System Thinking on Kodofish</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-TW</language>
+    <copyright>Copyright © 2019, all rights reserved.</copyright>
+    <lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://kodofish.github.io/tags/system-thinking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>System Thinking 工作坊參加心得筆記</title>
+      <link>https://kodofish.github.io/post/2018-04-12_system_thinking_workshop/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/post/2018-04-12_system_thinking_workshop/</guid>
+      <description>System Thinking 工作坊參加心得筆記 年初 Taco 桑在新竹辦一整天的 System Thinking WorkShop 其實心裡就一直掙扎到到要不要衝到新竹去參加，就在猶豫掙扎的過程中票就賣完了😱 後來看到在台</description>
+    </item>
+    
+  </channel>
+</rss>
