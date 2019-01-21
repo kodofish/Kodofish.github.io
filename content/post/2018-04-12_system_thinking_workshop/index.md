@@ -1,7 +1,7 @@
 ---
 title: "System Thinking 工作坊參加心得筆記"
 date: 2018-04-12T00:00:00+08:00
-draft: true
+draft: false
 categories:
   - 敏捷修練場
   - 軟體開發
