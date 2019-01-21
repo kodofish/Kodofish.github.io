@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <copyright>Copyright © 2019, all rights reserved.</copyright>
-    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jan 2019 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://kodofish.github.io/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>整理你的 Github 以及你為什麼該這麼做？</title>
+      <link>https://kodofish.github.io/post/2019-01-21_organize_my_github/</link>
+      <pubDate>Tue, 22 Jan 2019 00:00:00 +0800</pubDate>
+      
+      <guid>https://kodofish.github.io/post/2019-01-21_organize_my_github/</guid>
+      <description>&lt;p&gt;各位有在使用 GitHub 的攻城獅/程序猿們，你們曾經整理過你們的 GitHub Repositories 嗎？你們的 Repositories 是否充斥著到處 Forks 回來的 Repository，而雜亂不堪？這邊介紹一下我自己在整理 GitHub 的小技巧。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Swagger Codegen — 自動產生文件的工具</title>

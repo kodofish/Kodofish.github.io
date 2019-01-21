@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kodofish.github.io/post/2019-01-21_organize_my_github/</loc>
+    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/post/2019-01-15_swaggercodegen/</loc>
     <lastmod>2019-01-15T00:00:00+08:00</lastmod>
   </url>
@@ -81,14 +86,20 @@
   </url>
   
   <url>
+    <loc>https://kodofish.github.io/tags/github/</loc>
+    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/</loc>
-    <lastmod>2019-01-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kodofish.github.io/post/</loc>
-    <lastmod>2019-01-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -160,7 +171,7 @@
   
   <url>
     <loc>https://kodofish.github.io/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/</loc>
-    <lastmod>2019-01-15T00:00:00+08:00</lastmod>
+    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
