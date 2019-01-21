@@ -3,7 +3,8 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 categories:
-  - Software Development
+  - 敏捷修練場
+  - 軟體開發
 tags:
   - Untagged
 ---
