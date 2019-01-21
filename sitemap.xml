@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://kodofish.github.io/post/2017-09-15_agile_neihu_sprint8/</loc>
+    <lastmod>2017-09-15T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/tags/agile/</loc>
     <lastmod>2018-05-23T00:00:00+08:00</lastmod>
     <priority>0</priority>
@@ -96,6 +101,12 @@
   <url>
     <loc>https://kodofish.github.io/tags/refactoring/</loc>
     <lastmod>2018-07-01T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kodofish.github.io/tags/retrospective/</loc>
+    <lastmod>2017-09-15T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
