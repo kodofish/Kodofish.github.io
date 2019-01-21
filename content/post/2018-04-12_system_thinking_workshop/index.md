@@ -9,7 +9,11 @@ tags:
   - System Thinking
 ---
 
-# System Thinking 工作坊參加心得筆記
+這是我第一次參加關於**System Thinking**的工作坊，在短短約四個小時的時間，大概略知什麼是 System Thinking，但要熟練使用在日常工作或生活中，肯定還需要一段時間的學習與練習。
+
+---
+
+<!--more-->
 
 ![System Thinging](Images/1_pRgjDoCeRsNrdEAO9vk8BQ.png)
 

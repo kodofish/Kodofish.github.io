@@ -8,7 +8,8 @@ tags:
   - Agile
   - Quality
 ---
-# Agile Taipei 海盜年會：聊一聊『隱藏的質量』心得
+這次參加了由 AgileCommunity.tw 舉辦的**Agile Taipei 海盜年會**，這次邀請邰曉梅老師來台灣分享關於軟體品質的觀點。
+<!--more-->
 
 昨晚參加由 [AgileCommunity.tw](https://www.facebook.com/AgileCommunity.tw/) 邀請了曉梅老師來分享『隱藏的質量』。做為軟體工程師這麼多年，也時常會遇到老闆問目前專案的開發品質為何？過去我也僅止於提出 QA 測試出來的 Bug 數、Bug 收復速度或是 Bug 正在收斂中或是擴散中這些可以被「量化」的數據。似乎只要 QA 測不出 Bug 或是 Bug 數非常少，產品的品質就是非常好。
 

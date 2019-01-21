@@ -10,11 +10,13 @@ tags:
   - WebAPI
   - featured
 ---
-# Swagger Codegen — 自動產生文件的工具
-
 寫 Web API 的開發人員多少都用過 Swagger 這個工具，結合到 ASP.Net MVC 專案上，就會讀取程式碼裡的註解以產生 API 文件頁面。不論是加新 API 或修改 API，只要記得增加/調整註解，Swagger 就能夠產生出最新的 API 說明文件。也因此我再也沒有另外手動維護任何靜態文件了。
 
+但若是真的需要另外產生一份 API 文件時，難道只能手寫一份嗎？
+<!--more-->
+
 ![Swagger UI](Images/1_YOhEMdhy5oy9YErsbbom8g.png)
+
 from: https://petstore.swagger.io/
 
 由於工作流程的需求，並不是所有人都知道 Swagger 的存在，而且 Swagger 是直接結合在 ASP.Net MVC 專案上，通常為了安全性只會讓開發環境可以使用 Swagger，其他環境會將 Swagger 關閉。另外也不是所有人都能存取開發環境。為了讓沒辦法看 Swagger 但又有看文件需求的人也可以看文件，就有了產生靜態文件的需求(嘆)。
@@ -38,7 +40,6 @@ from:https://github.com/swagger-api/swagger-codegen#overview
 就當正要將這個過程做個記錄的同時，又在文件中看到一句話。
 
 ![原來我可以不用花時間 Build 的啊](Images/1_vUBVQzFrnyUHAFPIOLKaAA.png "原來我可以不用花時間 Build 的啊~~")
-
 
 以後文件要先看清楚，人生可以不用多浪費 2 個小時。不過也多學了怎麼 Build Java 程式，也算是個意外的收獲。
 
