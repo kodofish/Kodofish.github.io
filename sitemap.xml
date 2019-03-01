@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://kodofish.github.io/post/2019-03-01_vscode_extension_settings_sync/</loc>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/post/2019-01-21_organize_my_github/</loc>
     <lastmod>2019-01-22T00:00:00+08:00</lastmod>
   </url>
@@ -80,6 +85,12 @@
   </url>
   
   <url>
+    <loc>https://kodofish.github.io/tags/extension/</loc>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/tags/facilitation/</loc>
     <lastmod>2019-01-10T00:00:00+08:00</lastmod>
     <priority>0</priority>
@@ -93,13 +104,13 @@
   
   <url>
     <loc>https://kodofish.github.io/</loc>
-    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://kodofish.github.io/post/</loc>
-    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -140,6 +151,18 @@
   </url>
   
   <url>
+    <loc>https://kodofish.github.io/tags/visual-studio-code/</loc>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://kodofish.github.io/categories/visual-studio-code/</loc>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://kodofish.github.io/tags/webapi/</loc>
     <lastmod>2019-01-15T00:00:00+08:00</lastmod>
     <priority>0</priority>
@@ -171,7 +194,7 @@
   
   <url>
     <loc>https://kodofish.github.io/categories/%E8%BB%9F%E9%AB%94%E9%96%8B%E7%99%BC/</loc>
-    <lastmod>2019-01-22T00:00:00+08:00</lastmod>
+    <lastmod>2019-03-01T00:00:00+08:00</lastmod>
     <priority>0</priority>
   </url>
   
