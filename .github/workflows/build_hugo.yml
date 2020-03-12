@@ -9,7 +9,6 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - name: Checkout Submodules
     - uses: actions/checkout@v1
       with:
         submodules: true
