@@ -31,3 +31,4 @@ jobs:
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
         cname: kodofish.dev
+        commit_message: ${{ github.event.head_commit.message }}
