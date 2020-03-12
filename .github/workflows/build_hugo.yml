@@ -31,3 +31,4 @@ jobs:
         # 你的github page分支
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./
+        cname: kodofish.dev
