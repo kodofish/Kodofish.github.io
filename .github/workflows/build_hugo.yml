@@ -26,7 +26,7 @@ jobs:
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
-      env:
+      with:
         github_token: ${{ secrets.ACTIONS_DEPLOY_KEY}}
         # 你的github page分支
         PUBLISH_BRANCH: master
