@@ -3,14 +3,14 @@ name: github pages
 on:
   push:
     branches:
-    # 你的hugo源码分支
     - code
 
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-    - uses: actions/checkout@v1
+    - name: Checkout Submodules
+      uses: actions/checkout@v1
       # 如果使用了git submodules
       # with:
       #   submodules: true
@@ -18,17 +18,16 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.59.1'
+        hugo-version: '0.67.0'
         # extended: true
 
-    - name: Build
+    - name: Build Hugo
       run: hugo --minify
 
-    - name: Deploy
+    - name: Deploy Hugo
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.ACTIONS_DEPLOY_KEY}}
-        # 你的github page分支
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
         cname: kodofish.dev
