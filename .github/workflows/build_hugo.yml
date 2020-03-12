@@ -10,10 +10,10 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - name: Checkout Submodules
-      uses: actions/checkout@v1
-      # 如果使用了git submodules
-       with:
-         submodules: true
+    - uses: actions/checkout@v1
+      with:
+        submodules: true
+
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
