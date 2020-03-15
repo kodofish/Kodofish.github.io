@@ -30,10 +30,10 @@ jobs:
         PUBLISH_BRANCH: master
         PUBLISH_DIR: ./public
         cname: kodofish.dev
-        commit_message: ${{ github.event.head_commit.message }
+        commit_message: ${{ github.event.head_commit.message }}
         
     - uses: actions/checkout@v2
     - name: Slack Notification
-      uses: rtCamp/action-slack-notify@v2.0.0
+      uses: rtCamp/action-slack-notify@v2.0.1
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
