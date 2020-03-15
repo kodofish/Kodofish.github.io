@@ -36,4 +36,8 @@ jobs:
     - name: Slack Notification
       uses: rtCamp/action-slack-notify@v2.0.1
       env:
+        SLACK_USERNAME: Github Action
+        SLACK_ICON: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+        SLACK_TITLE: kodofish.dev deploy done.
+        SLACK_MESSAGE: 'kodofish.dev deploy success :rocket:'
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
