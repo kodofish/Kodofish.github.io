@@ -1,5 +1,5 @@
 baseurl                 = "https://kodofish.dev/"
-DefaultContentLanguage  = "en"
+DefaultContentLanguage  = "zh-tw"
 title                   = "Kodofish Blog"
 theme                   = "hugo-future-imperfect-slim"
 preserveTaxonomyNames   = true
@@ -7,7 +7,7 @@ paginate                = 3
 disqusShortname         = "kodofish-github-io"
 googleAnalytics         = "UA-132813063-1"
 pluralizeListTitles     = false
-disableLanguages        = [""]
+disableLanguages        = []
 
 [params]
   mainSections          = ["blog", "post"]
@@ -29,8 +29,7 @@ disableLanguages        = [""]
   readingTime           = true
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin",
-                          "pinterest", "email"]
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
 
   [params.meta]
     # Sets the meta tag description
@@ -49,18 +48,18 @@ disableLanguages        = [""]
 
   [params.header]
     # Sets the navbarTitle that appears in the top left of the navigation bar
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Kodofish Blog"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
-    languageMenu        = true
+    languageMenu        = false
 
   # These are optional params related to the sidebar. They are recommended, but not
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "軟體工程實踐練習場"
+    paragraph             = "有想到什麼就會拿來寫寫看"
     rssIntro              = true
     socialIntro           = true
 
@@ -74,7 +73,7 @@ disableLanguages        = [""]
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "test"
+    about               = "關於 Kodofish, 但其實自介還沒寫"
     # Sets the number of recent posts to show in the sidebar. The default value is 5.
     postAmount          = 5
     # set to show or to hide categories in the sidebar
@@ -84,9 +83,9 @@ disableLanguages        = [""]
 
   [params.footer]
     # Sets RSS icons to appear on the sidebar with the social media buttons
-    rssFooter           = true
+    rssFooter           = false
     # Sets Social Media icons to appear on the sidebar
-    socialFooter        = true
+    socialFooter        = false
 
   # Disqus will take priority over Staticman (github.com/eduardoboucas/staticman)
   # due to its ease of use. Feel free to check out both and decide which you would
@@ -94,12 +93,12 @@ disableLanguages        = [""]
   [params.staticman]
     # If using GitHub, go to https://github.com/apps/staticman-net
     # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
-    enabled             = false
+    enabled             = true
     api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
     gitProvider         = "github"  # either "github" or "gitlab"
-    username            = ""
-    repo                = ""
-    branch              = ""
+    username            = "kodofish"
+    repo                = "Kodofish.github.io"
+    branch              = "master"
 
     [params.staticman.recaptcha]
       # Both keys must be present to enable recaptcha
