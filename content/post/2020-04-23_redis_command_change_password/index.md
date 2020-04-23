@@ -3,7 +3,7 @@ title: "用 CONFIG SET 來變更 redis 連線密碼"
 date: 2020-04-23T16:49:54+08:00
 draft: false
 images:
- - img/redis_icon_text.png
+ - img/redis_icon_text_l.png
 categories:
   - redis
 tags:

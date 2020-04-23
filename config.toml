@@ -70,7 +70,7 @@ disableLanguages        = []
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
       width               = "200"
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "kodofish.dev"
 
   [params.sidebar]
     about               = "關於 Kodofish, 但其實自介還沒寫"
