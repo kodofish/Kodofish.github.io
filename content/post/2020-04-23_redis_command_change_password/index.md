@@ -8,6 +8,8 @@ tags:
   - redis
 ---
 
+![Redis icon](images/iconfinder_Untitled-2_202809.png)
+
 使用 Redis 時為了增加其安全性，不讓其他人可以隨時連進 Redis 進行操作，通常都會設定一組密碼。而密碼的設定除了透過修改 Redis config 之外，Redis 也提供了一個指令可以直接在線上進行修改，而且不需要重啟服務。
 
 這次所要使用的指令就是 `CONFIG SET`
