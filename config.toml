@@ -66,10 +66,10 @@ disableLanguages        = []
     # This appears at the top of the sidebar above params.intro.header.
     # A width of less than 100px is recommended from a design perspective.
     [params.intro.pic]
-      src                 = "/img/main/logo.jpg"
+      src                 = "/img/main/52803026_10216197131793970_7809465358447804416_o.jpg"
       # Masks image in a certain shape. Supported are circle, triangle, diamond, and hexagon.
       shape               = "circle"
-      width               = ""
+      width               = "200"
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
