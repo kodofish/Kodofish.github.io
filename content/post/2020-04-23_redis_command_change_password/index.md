@@ -2,6 +2,8 @@
 title: "用 CONFIG SET 來變更 redis 連線密碼"
 date: 2020-04-23T16:49:54+08:00
 draft: false
+images:
+ - post/2020-04-23_redis_command_change_passowrd/images/iconfinder_Untitled-2_202809.png
 categories:
   - redis
 tags:
