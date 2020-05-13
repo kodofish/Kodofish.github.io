@@ -1,10 +1,26 @@
 ---
-title: "SonarQube 快速安裝"
+title: "安裝 SonarQube - 為你的團隊建立軟體品質儀表板"
 date: 2020-05-05T13:24:55+08:00
-draft: true
+lastmod: 2020-05-13T13:00:00+08:00
+draft: false
+keywords:
+  - CI
+  - SonarQube
+images:
+  - img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg
+categories:
+  - CI
+tags:
+  - SonarQube
 ---
 
-這篇來講講 SonarQube 快速安裝，這方式蠻適合想先試用 SonarQube 評估對於團隊的幫助有多少時，可以先用快速安裝來減少前期準備的時間。
+從事軟體開發工作已經多年，軟體品質、工程師績效向來是一直難以量化呈現的問題。過去曾看過管理階層試圖以各種方式來定義，但總有許多技術上的問題與人性挑戰。無法量化，團隊就難以對於品質有一致的認知，沒有一致的認知在開發的過程中多少就會有些許的衝突。
+
+而 SonarQube 就是個讓你可以把團隊的軟體品質給數據化呈現出來軟體，也能讓團隊瞭解所開發的軟體是否有些潛在的問題。
+
+> 如果你無法加以量度，或是無法以數字將之表達出來，那麼你對於那樣東西的所知，則要歸於貧乏之列，或是嚴重不足— Lord Kelvin
+
+這篇來講講 SonarQube 安裝，這篇是我在安裝 SonarQube 時的安裝過程整理，
 
 ## 下載 SonarQube
 
@@ -12,30 +28,13 @@ draft: true
 
 ![SonarQube download](images/SonarQube_download.PNG)
 
-## 前置準備
-
-在執行 SonarQube 前，有兩件事要先準備好。第一是安裝 Java JRE 11。第二是安裝資料庫。
-
-### 安裝 Java JRE 11
-
-在這一步，我本來是想照著文件安裝 Java JRE 11 就好了，但找來找去找不到, 索興安裝 Java JDK 11。
-
-[官方下載](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
-
-### 安裝資料庫
-
-這個步驟是可以略過的，SonarQube 就會將資料儲存在本地，但這方法官方有說是不支援未來的升級與轉移的，所以已經確定要正式導入團隊使用時，建議還是採用完整安裝，建立專用的資料庫來讓 SonarQube 使用會比較恰當。
-
-資料庫支援 PostgreSQL、MS SQL、Oracle 這種資料庫，就挑選自己熟悉或喜歡的裝，若是用在公司還是要考量公司的技術偏好與可支援的程度來決定，這篇文章就不特別寫該如何安裝資料庫。
-
-[SonarQube - Prerequisites and Overview](https://docs.sonarqube.org/latest/requirements/requirements/)
-
 ## 快速啟動 SonarQube
 
-裝先前下載的 SonarQube 解壓縮並放在適合的位置後，以命令列執行 StarSonar.bat。例如：
+這方式蠻適合想先試用 SonarQube 評估對於團隊的幫助有多少時，可以先用快速安裝來減少前期準備的時間。
+將先前下載的 SonarQube 解壓縮並放在適合的位置後，以命令列執行 StarSonar.bat。例如：
 
 ```batch
-C:\sonarqube\bin\windows-x86-xx\StartSonar.bat
+$SONARQUBE-HOME\bin\windows-x86-xx\StartSonar.bat
 ```
 
 就官方文件上寫的，這樣應該就可以啟動 SonarQube 了，但我執行就看到這樣的訊息。
@@ -48,11 +47,27 @@ C:\sonarqube\bin\windows-x86-xx\StartSonar.bat
 
 果然!! 找不到 Java，找不到 java 就將 java 加入環境參數內，再重新執行一次。這次就順利執行起來了, 打開瀏覽器輸入 `http://localhost:9000/` 看到 SonarQube 的畫面就完成了。
 
-[SonarQube - Get Started in Two Minutes Guide](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/)
+- [SonarQube - Get Started in Two Minutes Guide](https://docs.sonarqube.org/latest/setup/get-started-2-minutes/)
 
 ## 完整安裝 SonarQube
 
 前一節的快速啟動算是可以讓你用較短的時間將 SonarQube 執行起來，並開始試用它。但只要伺服器重新開機就必須手動再重新執行一次，對於長期使用來說並不方便，而且前面也提到過沒有安裝資料庫，未來若是程式升級或是你想要搬伺服器的話，資料有可能是無法轉移的。因此這一節來說說該如何完整安裝 SonarQube。
+
+在執行 SonarQube 前，有兩件事要先準備好。第一是安裝 Java JRE 11。第二是安裝資料庫。
+
+### 安裝 Java JRE 11
+
+在這一步，我本來是想照著文件安裝 Java JRE 11 就好了，但找來找去找不到, 索興安裝 Java JDK 11。
+
+- [Java JRE 官方下載](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+
+### 安裝資料庫
+
+這個步驟是可以略過的，SonarQube 就會將資料儲存在本地，但這方法官方有說是不支援未來的升級與轉移的，所以已經確定要正式導入團隊使用時，建議還是採用完整安裝，建立專用的資料庫來讓 SonarQube 使用會比較恰當。
+
+資料庫支援 PostgreSQL、MS SQL、Oracle 這種資料庫，就挑選自己熟悉或喜歡的裝，若是用在公司還是要考量公司的技術偏好與可支援的程度來決定，這篇文章就不特別寫該如何安裝資料庫。
+
+- [SonarQube - Prerequisites and Overview](https://docs.sonarqube.org/latest/requirements/requirements/)
 
 ### 設定資料庫
 
@@ -76,7 +91,7 @@ sonar.jdbc.url=jdbc:oracle:thin:@127.0.0.1:1521:sonarqubedb
 
 這個錯誤就讓我多花了快兩個小時的時間...Orz
 
-[Oracle JDBC Driver download](https://www.oracle.com/database/technologies/jdbc-upc-downloads.html)
+- [Oracle JDBC Driver download](https://www.oracle.com/database/technologies/jdbc-upc-downloads.html)
 
 ### 將 SonarQube 以 Windows Service 執行
 
@@ -102,5 +117,9 @@ SonarQube 已經準備好 Service 的執行檔，要安裝時執行
 %SONARQUBE_HOME%/bin/windows-x86-64/StopNTService.bat
 ```
 
-[SonarQube - Install the Server](https://docs.sonarqube.org/latest/setup/install-server/)
-[SonarQube - Operating the Server](https://docs.sonarqube.org/latest/setup/operate-server/)
+Service 啟動後，打開瀏覽器輸入 `http://localhost:9000/`，看到 SonarQube 的畫面代表安裝已經完成。
+
+![SonarQube Screen](images/SonarQube_screen.PNG)
+
+- [SonarQube - Install the Server](https://docs.sonarqube.org/latest/setup/install-server/)
+- [SonarQube - Operating the Server](https://docs.sonarqube.org/latest/setup/operate-server/)
