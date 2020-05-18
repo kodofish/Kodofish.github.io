@@ -1,7 +1,8 @@
 ---
 title: "Working Effectively with Legacy Code - CH1 修改軟體"
-date: 2020-05-20T22:00:00+08:00
-draft: true
+date: 2020-05-18T20:00:00+08:00
+publishDate: 2020-05-20T22:00:00+08:00
+draft: false
 keywords:
   - Legacy Code
 images:
