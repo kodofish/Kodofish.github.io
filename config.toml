@@ -39,8 +39,8 @@ enableEmoji             = true
   removeBlur            = false
   # Sets which Social Share links appear in posts.
   # Options are twitter, facebook, reddit, linkedin, pinterest, email
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
-  hideEmptyStats        = false
+  # socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  hideEmptyStats        = true
 
   [params.meta]
     # Sets the meta tag description
@@ -63,7 +63,7 @@ enableEmoji             = true
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
     searchMenu          = false
-    shareMenu           = true
+    shareMenu           = false
     languageMenu        = true
 
   # These are optional params related to the sidebar. They are recommended, but not
