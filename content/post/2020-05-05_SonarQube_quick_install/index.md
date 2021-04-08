@@ -1,18 +1,13 @@
----
-title: "安裝 SonarQube - 為你的團隊建立軟體品質儀表板"
-date: 2020-05-05T13:24:55+08:00
-lastmod: 2020-05-13T13:00:00+08:00
-draft: false
-keywords:
-  - CI
-  - SonarQube
-images:
-  - img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg
-categories:
-  - CI
-tags:
-  - SonarQube
----
++++
+title = "安裝 SonarQube - 為你的團隊建立軟體品質儀表板"
+date = 2020-05-05T13:24:55+08:00
+keywords = ["CI", "SonarQube"]
+[[images]]
+  src = "img/fotis-fotopoulos-LJ9KY8pIH3E-unsplash.jpg"
+  alt = ""
+categories = ["CI"]
+tags = ["SonarQube", "CI"]
++++
 
 從事軟體開發工作已經多年，軟體品質、工程師績效向來是一直難以量化呈現的問題。過去曾看過管理階層試圖以各種方式來定義，但總有許多技術上的問題與人性挑戰。無法量化，團隊就難以對於品質有一致的認知，沒有一致的認知在開發的過程中多少就會有些許的衝突。
 

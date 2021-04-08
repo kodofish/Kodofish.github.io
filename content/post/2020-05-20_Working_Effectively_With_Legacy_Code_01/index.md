@@ -1,19 +1,13 @@
----
-title: "Working Effectively with Legacy Code - CH1 修改軟體"
-date: 2020-05-18T20:00:00+08:00
-publishDate: 2020-05-20T22:00:00+08:00
-draft: false
-keywords:
-  - Legacy Code
-images:
-  - img/Working_Effectively_with_Legacy_Code_book.jpg
-categories:
-  - Working Effectively With Legacy Code
-tags:
-  - Legacy Code
-  - TDD
-  - Refactoring
----
++++
+title = "Working Effectively with Legacy Code - CH1 修改軟體"
+date = 2020-05-18T20:00:00+08:00
+keywords = ["Legacy Code"]
+[[images]]
+  src = "img/Working_Effectively_with_Legacy_Code_book.jpg"
+  alt = ""
+categories = ["Working Effectively With Legacy Code"]
+tags = ["Legacy Code","TDD","Refactoring"]
++++
 
 > 這一系列文章是我在閱讀 Working Effectively with Legacy Code 這本書的書摘，其中穿插著我對於部份內容的心得。我盡可能的重新用自己的話與理解來寫這一系列文，好讓自己能夠重新整理書中的內容。若對於此書有興趣，也同時被遺留代碼殘害的工程師非常推薦將這本書買回去好好的閱讀。
 

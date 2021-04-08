@@ -1,19 +1,10 @@
----
-title: "如何設定 ASP.NET Core 網站應用程式持續執行在 IIS 上"
-date: 2021-04-08T00:00:00+08:00
-publishDate: 2021-04-08T00:00:00+08:00
-draft: false
-keywords:
-  - IIS
-  - ASP.NET Core
-images:
-  - 
-categories:
-  - ASP.NET Core
-tags:
-  - IIS
-  - ASP.NET Core
----
++++
+title = "如何設定 ASP.NET Core 網站應用程式持續執行在 IIS 上"
+date = 2021-04-08T00:00:00+08:00
+keywords = ["IIS", "ASP.NET Core"]
+categories = ["ASP.NET Core", "IIS"]
+tags = ["IIS", "ASP.NET Core"]
++++
 
 在 IIS 預設的設定下，只有在收到第一個 Request 後才會啟動執行網站應用程式。啟動後若 20 分鐘都沒有收到任何新的 Request 時，就會將應用程式給中止。
 

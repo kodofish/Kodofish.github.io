@@ -1,14 +1,13 @@
----
-title: "用 CONFIG SET 來變更 redis 連線密碼"
-date: 2020-04-23T16:49:54+08:00
-draft: false
-images:
- - img/redis_icon_text_l.png
-categories:
-  - redis
-tags:
-  - redis
----
++++
+title= "用 CONFIG SET 來變更 redis 連線密碼"
+date= 2020-04-23T16:49:54+08:00
+categories = ["redis"]
+tags = ["redis"]
+[[images]]
+  src = "img/redis_icon_text_l.png"
+  alt = ""
+  stretch = ""
++++
 
 使用 Redis 時為了增加其安全性，不讓其他人可以隨時連進 Redis 進行操作，通常都會設定一組密碼。而密碼的設定除了透過修改 Redis config 之外，Redis 也提供了一個指令可以直接在線上進行修改，而且不需要重啟服務。
 

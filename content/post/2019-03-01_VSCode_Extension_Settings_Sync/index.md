@@ -1,14 +1,9 @@
----
-title: "讓你的 Visual Studio Code 同步設定"
-date: 2019-03-01T00:00:00+08:00
-draft: false
-categories:
-  - 軟體開發
-  - Visual Studio Code
-tags:
-  - Visual Studio Code
-  - Extension
----
++++
+title = "讓你的 Visual Studio Code 同步設定"
+date = 2019-03-01T00:00:00+08:00
+categories =["軟體開發", "Visual Studio Code"]
+tags = ["Visual Studio Code", "Extension"]
++++
 
 Visual Studio Code 是平常工作之外最常使用的編輯器了，不論是寫文件、查 Log、寫 Blog 都是用 Visual Studio Code。平時寫 Code 用的 Visual Studio 2017 本身就有設定檔同步的功能，不論我在公司或在家中使用時，都有一致的操作環環境與體驗。但 Visual Studio Code 卻沒有內建類似的功能，每當我新增了 Extension 或修改了設定，就必須再次在另一台電腦上手動再做一次，有點不方便。抱著這樣的困擾在 Google 上找了一下，就找到了今天想為此寫篇文的 Extension [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)。
 

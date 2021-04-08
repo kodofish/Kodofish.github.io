@@ -1,16 +1,13 @@
----
-title: "Nuget Deprecating Package"
-date: 2020-05-18T19:19:13+08:00
-draft: false
-keywords:
-  - Nuget
-images:
-  - img/nuget-logo.png
-categories:
-  - Nuget
-tags:
-  - Nuget
----
++++
+title = "Nuget Deprecating Package"
+date = 2020-05-18T19:19:13+08:00
+keywords = ["Nuget"]
+[[images]]
+  src = "img/nuget-logo.png"
+  alt = ""
+categories = ["Nuget"]
+tags =["Nuget"]
++++
 
 今天發現了 Lag 有一段時間的新功能，就是 Nuget.org 支援 `Deprecating packages` 新功能。
 過去 Nuget 在還沒有支援這項功能前，開發者只能一直讓舊版軟體一直掛在 nuget.org 上, 讓使用者繼續使用，或是使用 `Unlisting`，讓使用者無法繼續搜尋到特定版本的 Package。
