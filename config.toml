@@ -62,7 +62,7 @@ enableEmoji             = true
     navbarTitle         = "Kodofish Blog"
     # Sets navbarTitle to match the section of the website
     dynamicTitles       = true
-    searchMenu          = true
+    searchMenu          = false
     shareMenu           = true
     languageMenu        = true
 
